@@ -3,6 +3,7 @@
 This project for initial structure files golang with features:
 
 - Migration & seeder
+- JSON Web Token
 - Role & permission
 - Policy
 - Repository
