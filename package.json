@@ -1,0 +1,18 @@
+{
+  "name": "tutorial-2-gin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.go",
+  "scripts": {
+    "dev": "nodemon --exec go run main.go --signal SIGKILL",
+    "build": "go build main.go",
+    "start": "./main",
+    "migrate": "go run main.go -option=MigrateAllTable",
+    "migrate:fresh": "go run main.go -option=MigrateFreshAllTable",
+    "migrate:drop": "go run main.go -option=DropAllTable",
+    "migrate:seed": "go run main.go -option=SeedData"
+  },
+  "keywords": [],
+  "author": "fiyosa",
+  "license": "ISC"
+}
