@@ -1,5 +1,3 @@
-## Simple Project Golang
-
 ## Description
 
 This project for initial structure files golang with features:
